@@ -1,5 +1,5 @@
 {
-  "verson": 1,
+  "verson": 2,
   "builds" : [
     {
       "src": "./src/index.ts",
