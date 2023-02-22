@@ -1,0 +1,15 @@
+{
+  "verson": 1,
+  "builds" : [
+    {
+      "src": "./src/index.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
